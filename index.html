@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+  </head>
+  <body>
+    <!-- Header Of Calculator -->
+    <header>
+      <img class="icons" src="assets\images\calculator.svg" alt="icon">
+      <h1>The Unconventional Calculator</h1>
+      <div id="toggle">
+        <i class="indicator" ></i>
+      </div>
+       
+    </header>
+    <!-- CALCULATOR SECTION -->
+    <section id="calculator">
+      <input type="number" id="input-number" placeholder="Enter number ..." />
+      <div id="calc-actions">
+        <button class="btns" type="button" id="btn-add">+</button>
+        <button class="btns" type="button" id="btn-subtract">-</button>
+        <button class="btns" type="button" id="btn-multiply">*</button>
+        <button class="btns" type="button" id="btn-divide">/</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer">&copy;Wasi Development&nbsp; &#9812;</p>
+    </footer>
+    
+    <!-- rESULT SECTION -->
+
+    <section id="results">
+      <h2 class="resulText" id="current-calculation">0</h2>
+      <h2 class="resulText">Result: <span id="current-result">0</span></h2>
+    </section>
+
+    <!-- JavaScript File Links -->
+    <script src="assets/scripts/vendor.js"></script>
+    <script src="assets/scripts/app.js"></script>
+
+  </body>
+</html>
