@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles/app.css" />
     <title>Conventional Calculator</title>
-
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Header Of Calculator -->
     <header>
-        <a href="index.html"><img class="icons2" src="assets\images\calculator.png" alt="icon" target="_parent"></a>
-        <h1>The Conventional Calculator.</h1>
-        <div id="toggle">
-        <i class="indicator" ></i>
-        </div>
-         
-      </header>
-  <!--  Calculator -->
-  <div class="container">
-    <input type="text">
-    <div class="wrapper">
+      <a href="index.html"
+        ><img
+          class="icons2"
+          src="assets\images\calculator.png"
+          alt="icon"
+          target="_parent"
+      /></a>
+      <h1>The Conventional Calculator.</h1>
+      <div id="toggle">
+        <i class="indicator"></i>
+      </div>
+    </header>
+    <!--  Calculator -->
+    <div class="mainContainer">
+      <input type="number" class="num" />
+      <div class="wrapper">
         <div class="row">
-            <button value="1">1</button>
-            <button value="1">1</button>
-            <button value="1">1</button>
+          <button value="1">7</button>
+          <button value="1">8</button>
+          <button value="1">9</button>
+          <button class="btnSide" value="/">/</button>
         </div>
         <div class="row">
-            <button value="1">1</button>
-            <button value="1">1</button>
-            <button value="1">1</button>
-            
+          <button value="4">4</button>
+          <button value="5">5</button>
+          <button value="6">6</button>
+          <button class="btnSide" value="*">*</button>
         </div>
         <div class="row">
-            <button value="1">1</button>
-            <button value="1">1</button>
-            <button value="1">1</button>
-            
+          <button value="1">1</button>
+          <button value="2">2</button>
+          <button value="3">3</button>
+          <button class="btnSide" value="-">-</button>
         </div>
-
-  </div>
-          <!-- Footer -->
+        <div class="row">
+          <button class="btnSide" value="0">0</button>
+          <button  class="btnSide" value=".">.</button>
+          <button class="btnSide" value="+">+</button>
+          <button class="btnSide" value="=">=</button>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
     <footer class="footer">
-        <p class="footer">&copy;Wasi Development&nbsp; &#9812;</p>
-      </footer>
+      <p class="footer">&copy;Wasi Development&nbsp; &#9812;</p>
+    </footer>
 
     <!-- JavaScript File Links -->
     <script src="assets/scripts/vendor.js"></script>
     <script src="assets/scripts/app.js"></script>
-
-</body>
+  </body>
 </html>
