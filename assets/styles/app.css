@@ -14,7 +14,10 @@ body {
   transition: 0.5s;
 }
 .icons {
-  width: 5%;
+  width: 22%;
+}
+.icons2{
+  width: 70px;
 }
 
 header {
@@ -165,4 +168,19 @@ body.active {
   margin-bottom: 2px;
   position: absolute;
   bottom: 0;
+}
+
+
+.container{
+  width: 100;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: inherit;
+
+}
+.row{
+  display: flex;
+  padding: 5px 10px;
+  font-family: inherit;
 }
